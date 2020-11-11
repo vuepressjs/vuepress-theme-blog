@@ -14,6 +14,7 @@ You can find all available formats [here](https://github.com/iamkun/dayjs/blob/d
 e.g.
 
 ```js
+// .vuepress/config.js
 module.exports = {
   themeConfig: {
     dateFormat: 'YYYY-MM-DD'
