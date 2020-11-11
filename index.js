@@ -137,12 +137,9 @@ module.exports = themeConfig => {
       }
       if (themeConfig.summary) {
         pageCtx.summary =
-          removeMd(
-            strippedContent
-              .trim()
-              .replace(/^#+\s+(.*)/, '')
-              .slice(0, themeConfig.summaryLength)
-          ) + ' ...'
+          removeMd(strippedContent.trim())
+            .replace(/^#+\s+(.*)/, '')
+            .slice(0, themeConfig.summaryLength) + ' ...'
         pageCtx.frontmatter.description = pageCtx.summary
       }
       if (pageCtx.frontmatter.summary) {
