@@ -73,7 +73,7 @@ export default {
     a
       color $darkTextColor
       font-weight bold
-      font-family PT Serif, Serif
+      font-family $fontFamily
       text-decoration none
 
   .header-right-wrap
@@ -91,14 +91,14 @@ export default {
         margin-left 20px
 
         a
-          font-family PT Serif, Serif
+          font-family $fontFamily
           font-size 20px
           // color lighten(#3eaf7c, 30%)
           text-decoration none
           transition color 0.3s
 
     .search-box
-      font-family PT Serif, Serif
+      font-family $fontFamily
       margin-left 20px
 
       input

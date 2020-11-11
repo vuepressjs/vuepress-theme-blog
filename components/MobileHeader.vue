@@ -47,7 +47,7 @@ export default {
 
 <style lang="stylus">
 .mobile-header-bar
-  font-family PT Serif, Serif
+  font-family $fontFamily
   z-index 12
   position fixed
   top 0
@@ -68,7 +68,7 @@ export default {
     .mobile-home-link
       text-decoration none
       text-transform uppercase
-      font-family PT Serif, Serif
+      font-family $fontFamily
       color #222
       font-weight bold
 

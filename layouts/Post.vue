@@ -49,7 +49,7 @@ export default {
   @extend $wrapper
   font-size 16px
   letter-spacing 0px
-  font-family PT Serif, Serif
+  font-family $fontFamily
   color $textColor
   position relative
 
